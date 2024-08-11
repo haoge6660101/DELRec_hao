@@ -1,0 +1,24 @@
+{
+    "inputDataSetFile": "WG_synth_0202_run.csv",
+    "tensorOutputDir": "/tmp",
+    "selectionQuery": "aantal_werknemers > 4",
+    "activationType": "selu",
+    "minNeurons": [
+        "default",
+        "7"
+    ],
+    "optimizer": "optimizers.SGD(lr=0.01, clipvalue=0.5)",
+    "selectedFeatures": [
+      "leeftijd",
+ "firmawagen",
+ "aantal_wn_instroom_2017",
+ "aantal_wn_uitstroom_2017",
+ "basisloon",
+ "variabel",
+ "RangeMaxMin",
+ "RangeMaxAvg",
+ "geslacht_M",
+ "opleidingsniveau_UNIV",
+ "aantal_werknemers"
+    ]
+}
