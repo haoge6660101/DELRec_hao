@@ -14,6 +14,6 @@ Sequential recommendation (SR) tasks aim to predict users’ next interaction by
     pip install -r requirements.txt
     ```
 
-2. **Prepare the pre-trained Huggingface model of LLaMA2-7b([https://huggingface.co/google/flan-t5-xxl]https://huggingface.co/google/flan-t5-xxl):**
+2. **Prepare the pre-trained Huggingface model of Flan-t5-XXL(https://huggingface.co/google/flan-t5-xxl):**
 
 3. **Download the datasets.**
