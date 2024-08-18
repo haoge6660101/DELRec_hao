@@ -121,7 +121,7 @@ if __name__ == '__main__':
     parser.add_argument('--LSR_log_validation_dataset_path', default='LSR_dataset3.pkl', type=str)
     parser.add_argument('--LSR_truncation_seq', default=5, type=int)
     parser.add_argument('--LSR_user_interactions_with_text_title_ground_truth_path',
-                        default='./user_interactions_with_text_title_and_ground_truth', type=str) # txt version of ./data user interactions.csv
+                        default='./user_interactions_with_text_title_and_ground_truth', type=str)
 
     args = parser.parse_args()
     main(args)
