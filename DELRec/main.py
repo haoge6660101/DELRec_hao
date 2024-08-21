@@ -35,6 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('--llm', default="t5", choices=['roberta', 'bert', 'albert', 'gpt', 'gpt2', 'opt', 'llama'],
                         type=str)
     parser.add_argument('--SR_model', default="SASRec", choices=['SASRec', 'Caser', 'GRU'], type=str)
+    parser.add_argument('--mode', default="test", choices=['train', 'test'], type=str)
     parser.add_argument('--ICL_length', default=4, choices=[4, 6], type=int)
     parser.add_argument('--ICL_back', default=3, choices=[3, 5], type=int)
     parser.add_argument('--candidate_size', default=20, choices=[15, 20, 25], type=int)
