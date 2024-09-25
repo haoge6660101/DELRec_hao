@@ -19,6 +19,6 @@ DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommend
     pip install -r requirements.txt
     ```
 
-2. **Prepare the pre-trained Huggingface model of Flan-T5-XL(https://huggingface.co/google/flan-t5-xl):**
+2. **Prepare the pre-trained Huggingface model of Flan-T5-XL(https://huggingface.co/google/flan-t5-xl).**
 
 3. **Download the datasets.**
