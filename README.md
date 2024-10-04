@@ -26,5 +26,7 @@ DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommend
 4. **Download the datasets.**
 
     MovieLens-100K: https://grouplens.org/datasets/movielens/100k/
+   
     Steam: https://huggingface.co/datasets/joyliao7777/LLaRA/tree/main/steam     
+
     Beauty: https://nijianmo.github.io/amazon/
