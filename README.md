@@ -8,7 +8,7 @@ To improve the performance of LLMs-based SR, we propose a novel framework, Disti
 ![delrec_rough](https://github.com/user-attachments/assets/b61bf4fd-9775-4bd5-9e64-b23829873450)
 
 ## Paper
-DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommendation([DELRec.pdf](https://github.com/user-attachments/files/16639272/DELRec.pdf))
+DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommendation ([DELRec.pdf](https://github.com/user-attachments/files/16639272/DELRec.pdf))
 
 ## Preparation
 1. **Prepare the environment:**
