@@ -21,13 +21,12 @@ DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommend
 
 2. **Prepare the pre-trained Huggingface model of Flan-T5-XL.**
    
-   https://huggingface.co/google/flan-t5-xl
+    Flan-T5-XL: https://huggingface.co/google/flan-t5-xl
 
 4. **Download the datasets.**
 
 
-   MovieLens 100k dataset: https://grouplens.org/datasets/movielens/100k/
+    MovieLens-100K: https://grouplens.org/datasets/movielens/100k/
       
-   Steam dataset: https://huggingface.co/datasets/joyliao7777/LLaRA/tree/main/steam
-      
-   Amazon dataset: https://nijianmo.github.io/amazon/
+    Steam: https://huggingface.co/datasets/joyliao7777/LLaRA/tree/main/steam     
+    Beauty: https://nijianmo.github.io/amazon/
