@@ -29,4 +29,7 @@ DELRec: Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommend
    
     Steam: https://huggingface.co/datasets/joyliao7777/LLaRA/tree/main/steam     
 
-    Beauty: https://nijianmo.github.io/amazon/
+    Beauty: https://github.com/RUCAIBox/RecSysDatasets
+
+    Home and Kitchen: https://github.com/RUCAIBox/RecSysDatasets
+   
