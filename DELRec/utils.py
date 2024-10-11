@@ -59,7 +59,7 @@ def calculate_metrics(logits, labels, nd5, ht5, ht1):
         i = rankss[j]
 
         if i.cpu() <= 5:
-            nd5 += 1 / np.log2(i.cpu() + 2)
+            nd5 += 1 / np.log2(i.cpu() + 1)
             ht5 += 1
         if i.cpu() <= 1:
             ht1 += 1
@@ -82,7 +82,7 @@ def evaluate(prompt_model, dataloader, nd5=0.0000, ht5=0.0000, ht1=0.0000, use_c
             i = rankss[j]
 
             if i.cpu() <= 5:
-                nd5 += 1 / np.log2(i.cpu() + 2)
+                nd5 += 1 / np.log2(i.cpu() + 1)
                 ht5 += 1
             if i.cpu() <= 1:
                 ht1 += 1
